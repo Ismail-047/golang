@@ -8,6 +8,9 @@ import "fmt"
 
 func StringRuneByte() {
 	// STRING
+	/*
+		SINGLE QUOTES CAN'T BE USED FOR STRINGS, THEY ARE FOR RUNES
+	*/
 	name := "HELLO"
 	fmt.Println(name)      // HELLO
 	fmt.Println(len(name)) // 5 (BYTES)
