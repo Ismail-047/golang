@@ -14,6 +14,10 @@ func main() {
 
 	// CONSTANTS
 	const pi = 3.14
+	const ( // MULTIPLE CONSTANTS
+		port = 3000
+		host = "localhost"
+	)
 
 	fmt.Println(name, age, count, x, y, a, b);
 }
