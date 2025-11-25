@@ -48,8 +48,12 @@ func main() {
 
 	/* ----- SPECIAL ----- */
 	var pointer *int      // INTEGER POINTER
-	var inter interface{} // ANY TYPE
 	var channel chan int  // CHANNELS FOR CONCURRENCY
+	var inter interface{} // ANY TYPE
+	/*
+		interface{} // old way (Go 1.17 and earlier)
+		any         // new alias (Go 1.18+)
+	*/
 
 	fmt.Println(num, num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, num11, com, com1, str, char, bytee, boolean, int_arr, int_arr_fixed, key_value, structure, pointer, inter, channel)
 }
